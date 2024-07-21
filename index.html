@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link href="css/style.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+   <link href="css/style.css" rel="stylesheet">
+
+
 </head>
 <body>
+
 <nav class="navbar navbar-expand-lg bg-custom">
-  <a class="navbar-brand" href="#">Shooping web</a>
+  <a class="navbar-brand" href="#">Shopping Web</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home</a>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home </a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">About us</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          products
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+          Products
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <div class="dropdown-menu">
           <a class="dropdown-item" href="#">Domino's</a>
           <a class="dropdown-item" href="#">Food item</a>
           <div class="dropdown-divider"></div>
@@ -39,33 +43,159 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">contact us</a>
+        <a class="nav-link">Contact us</a>
       </li>
     </ul>
-    <span class="navbar-text">
-      <a href="#registermodal" data-toggle="modal">Register</a> &nbsp;&nbsp;
-      <a href="#registermodal" data-toggle="modal">Login</a>
+      <span class="navbar-text">
+      <a href="#registermodal" data-toggle="modal"> Register </a> &nbsp;&nbsp;
+      <a href="#loginmodal" data-toggle="modal"> Login </a>
     </span>
   </div>
 </nav>
+
 <div class="jumbotron">
-<div id="text data">
+
+  <div id="textdata">
   <h1 class="display-4">Welcome to Domino's</h1>
-  <p class="lead">50% off on all food item</p>
+  <p class="lead">50% off on all food item </p>
   <hr class="my-4">
   <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <p class="lead">
-    <a class="btn btn-outline-primary" href="#" role="button">Order now</a>
-  </p>
+ <p class="lead">
+  <a class="btn btn-outline-primary" href="#" role="button">Order Now</a>
+ </p> 
 </div>
-
 
 <div id="imagedata">
-  <img src="images/background.png">
+  <img src="images/background3.png" class="img-fluid">
 </div>
 </div>
 
-<div class="modal" tabindex="-1" id="registermodal">
+<!-- about us section -->
+
+<div class="container" >
+  <h1 class="my-3">About us</h1>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="images/background.png" class="img-fluid">
+    </div>
+    <div class="col-md-6">
+     <p> 
+
+Domino's Pizza in Providencia, Santiago de Chile
+The Domino's menu varies by region. The current Domino's menu in the United States features a variety of Italian-American main and side dishes. Pizza is the primary focus, with traditional, specialty, and custom pizzas available in a variety of crust styles and toppings. In 2011, Domino's launched artisan-style pizzas. Additional entrees include pasta, bread bowls, and oven-baked sandwiches. The menu offers chicken and bread side dishes, as well as beverages and desserts.[42]
+</p>
+<p>
+From its founding until the early 1990s, the menu at Domino's Pizza was kept simple relative to other fast food restaurants, to ensure efficiency of delivery.[43] Historically, Domino's menu consisted solely of one style of pizza crust in two sizes (12-inch and 16-inch), eleven toppings, and Coca-Cola as the only soft drink option
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- end of about us section -->
+
+<!-- product section -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card">
+       <div class="card-body">
+         <img src="images/background4.png" class="img-fluid">
+       </div>
+      <div class="card-footer">
+        <p>Price- 100</p>
+      </div>
+    </div>
+  </div>
+
+    <div class="col-md-3">
+      <div class="card">
+       <div class="card-body">
+         <img src="images/background4.png" class="img-fluid">
+       </div>
+      <div class="card-footer">
+        <p>Price- 100</p>
+      </div>
+    </div>
+  </div>
+
+     <div class="col-md-3">
+      <div class="card">
+      <div class="card-body">
+        <img src="images/background4.png" class="img-fluid">
+      </div>
+        <div class="card-footer">
+          <p> Price - 100 </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+      <div class="card-body">
+        <img src="images/background4.png" class="img-fluid">
+      </div>
+        <div class="card-footer">
+          <p> Price - 100 </p>
+        </div>
+      </div>
+    </div>
+  <!-- end of first row -->
+
+  <div class="row my-3">
+<div class="col-md-3">
+  <div class="card">
+      <div class="card-body">
+        <img src="images/background4.png" class="img-fluid">
+      </div>
+        <div class="card-footer">
+          <p> Price - 100 </p>
+        </div>
+      </div>
+    </div>
+
+<div class="col-md-3">
+  <div class="card">
+      <div class="card-body">
+        <img src="images/background4.png" class="img-fluid">
+      </div>
+        <div class="card-footer">
+          <p> Price - 100 </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+      <div class="card-body">
+        <img src="images/background4.png" class="img-fluid">
+      </div>
+        <div class="card-footer">
+          <p> Price - 100 </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+      <div class="card-body">
+        <img src="images/background4.png" class="img-fluid">
+      </div>
+        <div class="card-footer">
+          <p> Price - 100 </p>
+        </div>
+      </div>
+    </div>
+
+
+<!-- end of second row -->
+
+
+
+<!-- end of product section -->
+
+<!-- register modal -->
+<div class="modal" tabindex="-1" role="dialog" id="registermodal">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -74,36 +204,77 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
-        <p>Modal body text goes here.</p>
+    <div class="modal-body">
+        <form>
+          <div class="form-group">
+    <label for="exampleInputFullname">Full name</label>
+    <input type="text" class="form-control" id="exampleInputFullname" aria-describedby="emailHelp" placeholder="Enter exampleInputFullname">
+   
+  </div>
+  <div class="form-group">
+   <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+   <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputContact">Contact</label>
+    <input type="tel" class="form-control" id="exampleInputContact" placeholder="Contact">
+  </div>
+
+
+       <button type="submit" class="btn btn-primary">Register</button>
+  <p>Already have an Account?<a href="#loginmodal" data-toggle="modal"> Sign In</a></p>
+</form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Register</button>
+       
         <button type="button" class="btn btn-primary">Close</button>
       </div>
     </div>
-  </div>
+   </div>
 </div>
+<!-- end of register modal -->
 
-<div class="modal" tabindex="-1" id="loginmodal">
-  <div class="modal-dialog">
+<!-- login modal -->
+<div class="modal" tabindex="-1" role="dialog" id="loginmodal">
+  <div class="modal-dialog" role="documnet">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
+        <h5 class="modal-title">Login</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
-        <p>Login from</p>
+       <div class="modal-body">
+        <form>
+         
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+
+
+ 
+  <button type="submit" class="btn btn-primary">Login</button>
+  <p>Don't have an Account?<a href="#registermodal"> Sign up</a></p>
+</form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Login</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
       </div>
     </div>
   </div>
 </div>
-
-</body>
+ 
+ </body>
 </html>
